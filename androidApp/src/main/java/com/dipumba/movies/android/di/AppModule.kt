@@ -1,7 +1,7 @@
-package com.dipumba.movies.android.di
+package com.demo.movies.android.di
 
-import com.dipumba.movies.android.detail.DetailViewModel
-import com.dipumba.movies.android.home.HomeViewModel
+import com.demo.movies.android.detail.DetailViewModel
+import com.demo.movies.android.home.HomeViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

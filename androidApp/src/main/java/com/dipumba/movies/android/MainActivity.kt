@@ -1,4 +1,4 @@
-package com.dipumba.movies.android
+package com.demo.movies.android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

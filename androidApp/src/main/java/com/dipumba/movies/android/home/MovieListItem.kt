@@ -1,4 +1,4 @@
-package com.dipumba.movies.android.home
+package com.demo.movies.android.home
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -21,8 +21,15 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import com.dipumba.movies.android.R
-import com.dipumba.movies.domain.model.Movie
+import com.demo.movies.android.R
+import com.demo.movies.domain.model.Movie
+/**
+ * Composable function to display a movie item in a list.
+ *
+ * @param modifier Modifier for styling the entire movie item.
+ * @param movie Movie object containing details of the movie to be displayed.
+ * @param onMovieClick Lambda function to handle the click event on the movie item.
+ */
 @Composable
 fun MovieListItem(
     modifier: Modifier = Modifier,

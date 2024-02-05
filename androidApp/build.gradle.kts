@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "com.dipumba.movies.android"
+    namespace = "com.demo.movies.android"
     compileSdk = 33
     defaultConfig {
-        applicationId = "com.dipumba.movies.android"
+        applicationId = "com.demo.movies.android"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

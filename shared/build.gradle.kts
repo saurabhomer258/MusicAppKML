@@ -90,7 +90,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.dipumba.movies"
+    namespace = "com.demo.movies"
     compileSdk = 33
     defaultConfig {
         minSdk = 24

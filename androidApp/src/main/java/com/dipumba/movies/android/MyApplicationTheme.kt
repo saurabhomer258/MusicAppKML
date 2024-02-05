@@ -1,4 +1,4 @@
-package com.dipumba.movies.android
+package com.demo.movies.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -30,9 +30,9 @@ fun MyApplicationTheme(
         )
     } else {
         lightColors(
-            primary = Color(0xFF6200EE),
-            primaryVariant = Color(0xFF3700B3),
-            secondary = Color(0xFF03DAC5)
+            primary = Color(0xFF006BEE),
+            primaryVariant = Color(0xFF0048B3),
+            secondary = Color(0xF303DADA)
         )
     }
     val typography = Typography(
@@ -56,8 +56,8 @@ fun MyApplicationTheme(
     )
 }
 
-val Dark1 = Color(red = 22, green = 23, blue = 29)
-val Dark2 = Color(red = 28, green = 29, blue = 35)
-val Dark3 = Color(red = 31, green = 31, blue = 36)
-val Dark4 = Color(red = 34, green = 35, blue = 40)
-val Red = Color(red = 220, green = 0, blue = 59)
+val Dark1 = Color(red = 17, green = 9, blue = 236, alpha = 255)
+val Dark2 = Color(red = 11, green = 108, blue = 226, alpha = 255)
+val Dark3 = Color(red = 15, green = 36, blue = 224, alpha = 255)
+val Dark4 = Color(red = 40, green = 34, blue = 36, alpha = 255)
+val Red = Color(red = 7, green = 0, blue = 220, alpha = 255)

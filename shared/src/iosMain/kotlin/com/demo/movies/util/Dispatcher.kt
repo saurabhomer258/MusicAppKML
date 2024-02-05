@@ -3,9 +3,9 @@ package com.demo.movies.util
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 
-internal class AndroidDispatcher: Dispatcher{
+internal class IosDispatcher: Dispatcher{
     override val io: CoroutineDispatcher
-        get() = Dispatchers.IO
+        get() = Dispatchers.Default
 }
 
-internal actual fun provideDispatcher(): Dispatcher = AndroidDispatcher()
+internal actual fun provideDispatcher(): Dispatcher = IosDispatcher()

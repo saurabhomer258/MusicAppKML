@@ -1,15 +1,17 @@
-package com.dipumba.movies.android.common
+package com.demo.movies.android.common
 
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
 
+// Interface representing a navigation destination
 interface Destination {
     val title: String
     val route: String
     val routeWithArgs: String
 }
 
-object Home: Destination{
+// Object representing the Home destination
+object Home : Destination {
     override val title: String
         get() = "Movies"
 
@@ -20,7 +22,8 @@ object Home: Destination{
         get() = route
 }
 
-object Detail: Destination{
+// Object representing the Detail destination
+object Detail : Destination {
     override val title: String
         get() = "Movie details"
 
@@ -30,24 +33,11 @@ object Detail: Destination{
     override val routeWithArgs: String
         get() = "$route/{movieId}"
 
+    // List of arguments associated with the Detail destination
     val arguments = listOf(
-        navArgument(name = "movieId"){type = NavType.IntType}
+        navArgument(name = "movieId") { type = NavType.IntType }
     )
 }
 
+// List of all movie destinations
 val movieDestinations = listOf(Home, Detail)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
