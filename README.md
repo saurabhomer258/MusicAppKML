@@ -49,6 +49,3 @@ These modules are integrated using the Koin dependency injection library.
 
 Feel free to customize and extend the code based on your project requirements.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
