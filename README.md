@@ -23,7 +23,17 @@ This is a Kotlin Multiplatform project for a Movie App, showcasing the use of Je
     
 
 
-https://github.com/saurabhomer258/MusicAppKML/assets/25095906/58e1ab4f-739a-4deb-835f-3dd5d8d81bb1
+![1](https://github.com/saurabhomer258/MusicAppKML/assets/25095906/58e1ab4f-739a-4deb-835f-3dd5d8d81bb1)
+
+
+![2](https://github.com/saurabhomer258/MusicAppKML/assets/25095906/d6ce5f4e-f643-45e2-ae42-1b06594a4d35)
+
+
+![3](https://github.com/saurabhomer258/MusicAppKML/assets/25095906/6997353a-86e5-47f9-8c24-fb516167c8d4)
+
+
+![4](https://github.com/saurabhomer258/MusicAppKML/assets/25095906/b6507bfe-3b9d-4ab3-8318-a315eb682d21)
+
 
 
 ## Structure
