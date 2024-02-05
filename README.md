@@ -1,6 +1,26 @@
 # Movies App
 
-This Kotlin Multiplatform project demonstrates a simple Movies app structure, with shared code for different platforms.
+## Overview
+This is a Kotlin Multiplatform project for a Movie App, showcasing the use of Jetpack Compose for UI, Koin for dependency injection, and Clean Architecture principles.
+
+## Key Technologies
+- **Kotlin Multiplatform (KMP):**
+  - Write shared code for Android, iOS, and other platforms.
+  - Enable code reuse between different platforms.
+  
+- **Jetpack Compose:**
+  - Modern Android UI toolkit for building native UIs using declarative syntax.
+  - Used for creating the UI components in the Android app.
+  
+- **Koin:**
+  - Lightweight dependency injection framework for Kotlin.
+  - Provides dependency injection for components across the project.
+  
+- **Clean Architecture:**
+  - Architectural pattern emphasizing separation of concerns.
+  - Layers: Presentation (Compose UI), Domain (Use Cases), Data (Repositories).
+  - Promotes maintainability, testability, and scalability.
+    
 
 
 https://github.com/saurabhomer258/MusicAppKML/assets/25095906/58e1ab4f-739a-4deb-835f-3dd5d8d81bb1
