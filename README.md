@@ -23,8 +23,6 @@ This is a Kotlin Multiplatform project for a Movie App, showcasing the use of Je
     
 ## Screenshot
 
-[![Video thumbnail](https://github.com/saurabhomer258/MusicAppKML/assets/25095906/b6507bfe-3b9d-4ab3-8318-a315eb682d21)]([https://www.youtube.com/watch?v=your_video_id](https://github.com/saurabhomer258/MusicAppKML/assets/25095906/58e1ab4f-739a-4deb-835f-3dd5d8d81bb1))
-
 
 
 ![2](https://github.com/saurabhomer258/MusicAppKML/assets/25095906/d6ce5f4e-f643-45e2-ae42-1b06594a4d35)
